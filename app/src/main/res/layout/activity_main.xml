@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    tools:context="olivato.controlbaker.MainActivity">
+
+
+
+    <ImageButton
+        android:layout_width="@dimen/mediumSquare"
+        android:layout_height="@dimen/mediumSquare"
+        android:layout_alignParentTop="true"
+        android:ellipsize="start"
+        android:src="@drawable/ic_add_circle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/menu_button"
+        android:id="@+id/addButton"
+        android:onClick="createNewButtonPack"/>
+
+    <ImageButton
+        android:layout_width="@dimen/mediumSquare"
+        android:layout_height="@dimen/mediumSquare"
+        android:src="@drawable/ic_games_black"
+        android:background="@drawable/menu_button"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/addButton"
+        android:layout_toEndOf="@+id/addButton"
+        android:onClick="listMyButtons"/>
+
+
+</RelativeLayout>

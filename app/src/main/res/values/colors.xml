@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC02B</color>
+    <color name="colorPrimaryDark">#F4AB00</color>
+    <color name="colorAccent">#2F48AD</color>
+    <color name="colorButton">#FFD470</color>
+    <color name="colorSpinner">#FFF2D3</color>
+    <color name="colorController">#7284D0</color>
+    <color name="simpletooltip_background">@color/colorAccent</color>
+    <color name="simpletooltip_text">#FFF</color>
+    <color name="simpletooltip_arrow">@color/colorAccent</color>
+</resources>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Control Baker</string>
+    <string name="AddNewButton">Start creating buttons!</string>
+    <string name="button_name">On, Off, One, 2, Green, etc...</string>
+    <string name="name">Name:</string>
+    <string name="target">Target:</string>
+    <string name="create">Add</string>
+    <string name="done">Done!</string>
+    <string name="root_route">Root Route:</string>
+    <string name="protocol">Protocol:</string>
+    <string name="button_pack_name">Button pack name:</string>
+    <string name="next">Next</string>
+    <string name="examples">Remote Controler, Lights, House, etc...</string>
+    <string name="path">The path yout want to do, not the full one, just the main part of it, like in the example!</string>
+    <string name="pn">The main name of your buttons, this isn\'t a button name, this is the father name of them, just follow the example and you will be good!</string>
+    <string name="my_controllers">My controllers:</string>
+    <string name="loading">Loading...</string>
+    <string name="active_internet">Be sure you have an active internet connection...</string>
+    <string name="malformed">Malformed URL, or no internet connection</string>
+    <string name="success">Success</string>
+    <string name="tuto">Here is the button name that you will press, the button itself</string>
+    <string name="tuto2">You can click here to see the final result of the button</string>
+    <string name="opto">Do you need something?</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="opt">Options:</string>
+    <string name="edita1">Edit</string>
+    <string name="delete12">Delete</string>
+    <string-array name="protocols">
+        <item>HTTP</item>
+        <item>Bluetooth (Coming Soon)</item>
+    </string-array>
+</resources>
